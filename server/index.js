@@ -14,7 +14,12 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../client/public')));
 
+// add stocks via postman for now
+app.post('/api/stocks', controllers.addATicker);
 
+//get all the data
+app.get('/api/stocks', controllers.getAllTickers);
+//add stocks
 
 
 
