@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+body {
+  font-family: 'Asap Condensed';
+  background-color: #e5f0ea;
+}
+
+.font-weight-700{
+   font-weight: 700;
+}
+
+.custom-card{
+   border: 0 ;
+   box-shadow: 0px 2px 4px #32a55373;
+   /* width: fit-content; */
+}
+.card-body img {
+   width: 16px;
+   opacity :0.2;
+}
+
+.text-primary {
+   color: #3949ab!important;
+}
+
+

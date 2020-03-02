@@ -1,6 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 
+import InfoCard from './InfoCard.jsx'
+import StockInfo from './StockInfo.jsx'
+
 class App extends React.Component {
   constructor() {
     super();
@@ -14,7 +17,7 @@ class App extends React.Component {
 
       <div>
         <div>
-        Hello!!
+        <StockInfo />
         </div>
       </div>
 
