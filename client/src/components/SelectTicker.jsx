@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
 import Select from 'react-select'
 
-// import chroma from 'chroma-js';
-
-// import { colourOptions } from '../selectData.js';
-
 
 //hard coded stuff needs to come from the DB
 const options = [
