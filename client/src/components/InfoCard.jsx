@@ -11,10 +11,12 @@ const InfoCard = (props) => {
     <div className="custom-card">
         <div className="card-body">
         <img src={props.src} alt={props.src} className = "img-responsive float-right"  />
+
             <h6 className="card-title"> {props.header} </h6>
 
             <h2 className="text-primary">${value}</h2>
             <p className="card-text"><small>{props.label}</small></p>
+            {/* <h6 className="time"> {timeStamp.time} </h6> */}
 
         </div>
     </div>

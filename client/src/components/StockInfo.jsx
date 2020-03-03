@@ -17,7 +17,8 @@ class StockInfo extends React.Component{
           dogeusd: '-',
           xmrusd: '-',
           zecusd: '-',
-          initValue: 0
+          initValue: 0,
+          time: '-'
       }
   }
 
@@ -56,14 +57,14 @@ class StockInfo extends React.Component{
     return (
     <div>
       <div>
-        <InfoCard header="Bitcoin (BTC)" src={'/bitcoin.png'} alt="fireSpot" label="(Price in USD)"   value={this.state.btcusd} />
-        <InfoCard header="Litecoin (LTC)"   src={'/litecoin.png'} alt="fireSpot" label="(Price in USD)"  value={this.state.ltcusd}/>
-        <InfoCard header="Ethereum (ETH)" src={'/ethereum.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.ethusd}/>
-        <InfoCard header="Dash (DASH)" src={'/dash.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.dashusd}/>
-        <InfoCard header="Bitcoin Cash (BCH)" src={'/bitcoincash.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.bchusd}/>
-        <InfoCard header="Monero (XMR)" src={'/monero.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.xmrusd}/>
-        <InfoCard header="Doge (DOGE)" src={'/dogecoin.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.dogeusd}/>
-        <InfoCard header="Ripple(XRP)" src={'/ripple.png'} alt="fireSpot" label="(Price in USD)"    value={this.state.xrpusd}/>
+        <InfoCard header="Bitcoin (BTC)" src={'/bitcoin.png'} alt="fireSpot" label="(Price in USD)" time={this.state.time}  value={this.state.btcusd} />
+        <InfoCard header="Litecoin (LTC)"   src={'/litecoin.png'} alt="fireSpot" label="(Price in USD)" time={this.state.time}   value={this.state.ltcusd}/>
+        <InfoCard header="Ethereum (ETH)" src={'/ethereum.png'} alt="fireSpot" label="(Price in USD)"  time={this.state.time}    value={this.state.ethusd}/>
+        <InfoCard header="Dash (DASH)" src={'/dash.png'} alt="fireSpot" label="(Price in USD)"  time={this.state.time}   value={this.state.dashusd}/>
+        <InfoCard header="Bitcoin Cash (BCH)" src={'/bitcoincash.png'} alt="fireSpot" label="(Price in USD)"  time={this.state.time}   value={this.state.bchusd}/>
+        <InfoCard header="Monero (XMR)" src={'/monero.png'} alt="fireSpot" label="(Price in USD)"  time={this.state.time}   value={this.state.xmrusd}/>
+        <InfoCard header="Doge (DOGE)" src={'/dogecoin.png'} alt="fireSpot" label="(Price in USD)" time={this.state.time}    value={this.state.dogeusd}/>
+        <InfoCard header="Ripple(XRP)" src={'/ripple.png'} alt="fireSpot" label="(Price in USD)" time={this.state.time}    value={this.state.xrpusd}/>
       </div>
     </div>
     )
