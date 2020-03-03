@@ -1,38 +1,28 @@
 import React, { Component } from 'react'
 import Select from 'react-select'
 
+// import chroma from 'chroma-js';
+
+// import { colourOptions } from '../selectData.js';
+
+
+//hard coded stuff needs to come from the DB
 const options = [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' }
+  { value: 'btc usd', label: 'Bitcoin (usd)' },
+  { value: 'ltc-usd', label: 'Litecoin (usd)' },
+  { value: 'etc-usd', label: 'Ethereum (usd)' },
+  { value: 'dash-usd', label: 'Dash (usd)' },
+  { value: 'bch-usd', label: 'Bitcoin Cash (usd)' },
+  { value: 'xmr-usd', label: 'Monero (usd)' },
+  { value: 'doge-usd', label: 'DogeCoin (usd)' },
+  { value: 'xrp-usd', label: 'Ripple (usd)' },
 ]
 
-class SelectTicker extends React.Component {
-  constructor(){
-    super();
-      state = {
-        selectedOption: null,
-      };
-}
-
-  handleChange(selectedOption){
-    this.setState({
-      selectedOption
-    });
-    console.log(`Option selected:`, selectedOption);
-  };
-
-  render() {
-    const { selectedOption } = this.state;
-
-    return (
-      <Select
-        value={selectedOption}
-        onChange={this.handleChange}
-        options={options}
-      />
-    );
-  }
-}
+const SelectTicker = () => (
+  <Select
+  options={options}
+  isSearchable
+  />
+)
 
 export default SelectTicker;
