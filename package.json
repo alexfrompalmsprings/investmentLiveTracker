@@ -29,6 +29,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-select": "^3.0.8",
+    "styled-components": "^5.0.1",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
     "yarn": "^1.22.0"
