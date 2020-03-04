@@ -20,11 +20,17 @@ class App extends React.Component {
 
       <div>
         <div>
+        <AddingTicker />
+        </div>
+
+        <br></br>
+
+        <div>
         <SelectTicker />
         </div>
-        {/* <div>
-        <AddingTicker />
-        </div> */}
+
+        <br></br>
+
         <div>
         <StockInfo />
         </div>

@@ -8,7 +8,7 @@ class AddingTicker extends React.Component {
   }
 
   handleSubmit(e) {
-    alert('The value is: ' + this.input.value);
+    alert('Crypto Currency has been added: ' + this.input.value + '🤟');
     e.preventDefault();
   }
 
