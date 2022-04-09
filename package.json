@@ -21,7 +21,7 @@
     "chroma-js": "^2.1.0",
     "express": "^4.16.3",
     "heroku": "^7.39.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.2.1",
     "morgan": "^1.9.0",
     "nodemon": "^2.0.2",
