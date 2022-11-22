@@ -31,7 +31,7 @@
     "react-select": "^3.0.8",
     "styled-components": "^5.0.1",
     "webpack": "^4.15.1",
-    "webpack-cli": "^3.0.8",
+    "webpack-cli": "^3.3.12",
     "yarn": "^1.22.0"
   }
 }
